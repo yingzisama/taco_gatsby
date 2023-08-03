@@ -1,14 +1,14 @@
 import * as React from 'react'
+import myImage from '../images/1.png';
 
 const AboutPage = () => {
   return (
-    <main>
-      <h1>给你看看</h1>
-      <img src="1.png" alt="Pulpit rock"></img>
-    </main>
-  )
-}
-
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <h1 style={{ textAlign: 'center' }}>看美女嘛？</h1>
+      <img src={myImage} alt="1.png" style={{ width: '800px', height: '600px' }} />
+    </div>
+  );
+};
 export const Head = () => <title>丹丹</title>
 
 export default AboutPage
