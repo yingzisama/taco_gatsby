@@ -3,8 +3,8 @@ import * as React from 'react'
 const AboutPage = () => {
   return (
     <main>
-      <h1>About Me</h1>
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+      <h1>别看了，我知道你打开了</h1>
+      <p>你是在摸鱼吧？</p>
     </main>
   )
 }
